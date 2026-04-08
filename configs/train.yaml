@@ -1,0 +1,12 @@
+epochs: 50
+batch_size: 64
+lr: 0.001
+train_size: 30000
+val_size: 6000
+seq_length: 1000
+weight_decay: 0.0001
+seed: 42
+num_workers: 6
+checkpoint: model.pth
+plot_prefix: training
+patience: 5
